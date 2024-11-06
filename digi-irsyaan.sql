@@ -91,3 +91,5 @@ LIMIT 1;
 SELECT *
 FROM public.transaction
 WHERE EXTRACT(MONTH FROM transaction_date) = 5;
+
+-
